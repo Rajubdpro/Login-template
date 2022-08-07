@@ -98,6 +98,7 @@ body {
 /** --------------Login 1 start------------------ **/
 
 .login-1 {
+  padding: 20px 0px;
   .form-section {
     min-height: 100vh;
     position: relative;
@@ -109,7 +110,7 @@ body {
     background: #fff2f2;
   }
 
-  h1 {
+  h2 {
     font-family: 'Jost', sans-serif;
     color: #040404;
   }
@@ -141,7 +142,7 @@ h6,
   }
 
   .form-inner {
-    max-width: 500px;
+   padding: 0px 10px;
     width: 100%;
   }
 
@@ -457,15 +458,17 @@ h6,
   }
 
   .info {
-    h1 {
-      font-size: 60px;
+    h2 {
+      font-size: 30px;
       color: #fff;
       font-weight: 700;
       margin-bottom: 30px;
       text-transform: uppercase;
+      text-align: center;
     }
 
     p {
+      text-align: center;
       margin-bottom: 0;
       color: #fff;
       opacity: 0.9;

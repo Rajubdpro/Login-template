@@ -97,6 +97,10 @@ body {
 }
 
 /** --------------Login 1 start------------------ **/
+.login-1 {
+  padding: 20px 0px;
+}
+
 .login-1 .form-section {
   min-height: 100vh;
   position: relative;
@@ -114,7 +118,7 @@ body {
   background: #fff2f2;
 }
 
-.login-1 h1 {
+.login-1 h2 {
   font-family: 'Jost', sans-serif;
   color: #040404;
 }
@@ -144,7 +148,7 @@ h6,
 }
 
 .login-1 .form-inner {
-  max-width: 500px;
+  padding: 0px 10px;
   width: 100%;
 }
 
@@ -484,15 +488,17 @@ h6,
   max-width: 650px;
 }
 
-.login-1 .info h1 {
-  font-size: 60px;
+.login-1 .info h2 {
+  font-size: 30px;
   color: #fff;
   font-weight: 700;
   margin-bottom: 30px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .login-1 .info p {
+  text-align: center;
   margin-bottom: 0;
   color: #fff;
   opacity: 0.9;
