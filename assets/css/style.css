@@ -1,0 +1,556 @@
+/** GLOBAL CLASSES **/
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #535353;
+}
+
+.img-fluid {
+  max-width: 100% !important;
+  height: auto;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.login-box .alert {
+  padding: 15.5px 20px;
+  font-size: 13px;
+  border: none !important;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+
+.login-box .alert-dismissible .btn-close {
+  padding: 18.5px 19px;
+  background-size: 8px;
+}
+
+.login-box .alert-dismissible .btn-close:focus, .login-box .alert-dismissible .btn-close:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.login-box .password-indicator {
+  position: absolute;
+  right: 15px;
+  top: 17px;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 0s linear 300ms, opacity 500ms;
+  transition: visibility 0s linear 300ms, opacity 500ms;
+  font-size: 17px;
+  color: #999;
+}
+
+.login-box .password-wrapper:hover .password-indicator {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: visibility 0s linear 0s, opacity 500ms;
+  transition: visibility 0s linear 0s, opacity 500ms;
+  font-size: 17px;
+  color: #555;
+}
+
+.login-box .login-popover {
+  font-size: 14px;
+  color: #777;
+  cursor: help;
+}
+
+.login-box .login-popover-abs {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.popover {
+  border: 1px solid #ebeef5 !important;
+  -webkit-box-shadow: 0 2px 12px 0 rgba(5, 5, 5, 0.1);
+          box-shadow: 0 2px 12px 0 rgba(5, 5, 5, 0.1);
+}
+
+.popover-header {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 0px;
+  background: #fff;
+  color: #555;
+  font-size: 15px;
+  font-family: 'Jost', sans-serif;
+  padding-bottom: 5px;
+}
+
+.popover-body {
+  padding: 5px 10px 10px 16px;
+  color: #777;
+  font-size: 13px;
+}
+
+.login-box .form-group label.error {
+  font-size: 13px;
+  text-align: left;
+  color: #535353;
+  width: 100%;
+}
+
+/** --------------Login 1 start------------------ **/
+.login-1 .form-section {
+  min-height: 100vh;
+  position: relative;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 15px;
+  background: #fff2f2;
+}
+
+.login-1 h1 {
+  font-family: 'Jost', sans-serif;
+  color: #040404;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Jost', sans-serif;
+  color: #040404;
+}
+
+.login-1 a {
+  text-decoration: none;
+  color: #535353;
+}
+
+.login-1 .form-section p p {
+  color: #535353;
+}
+
+.login-1 .form-inner {
+  max-width: 500px;
+  width: 100%;
+}
+
+.login-1 .bg-img {
+  background: url(../img/login-01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 999;
+  min-height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.login-1 .bg-img::before {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background: #333;
+  content: "";
+  z-index: -999;
+  opacity: .8;
+}
+
+.login-1 .form-section .extra-login {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.login-1 .form-section .extra-login::before {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 100%;
+  height: 1px;
+  background: #d8dcdc;
+  content: "";
+}
+
+.login-1 .form-section .extra-login > span {
+  padding: 1px 20px;
+  position: relative;
+  font-size: 15px;
+  color: #535353;
+  background: #fff2f2;
+}
+
+.login-1 .form-section .form-check-input {
+  width: 20px;
+  height: 20px;
+  margin-top: 0px;
+  position: absolute;
+  border-radius: 2px;
+  border: none;
+  background-color: #fff;
+  margin-left: -22px;
+}
+
+.login-1 .form-check-input:focus {
+  border-color: snow;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.login-1 .form-check-input:checked {
+  background-color: #43ba7f !important;
+}
+
+.login-1 .form-section p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.login-1 .form-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.login-1 .form-section .social-list li {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.login-1 .form-section .thembo {
+  margin-left: 4px;
+}
+
+.login-1 .form-section h3 {
+  margin: 0 0 25px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.login-1 .form-section .form-group {
+  margin-bottom: 25px;
+}
+
+.login-1 .form-section .form-control {
+  padding: 11px 20px 9px;
+  font-size: 16px;
+  outline: none;
+  height: 50px;
+  color: #535353;
+  border-radius: 3px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  background: #fff;
+}
+
+.login-1 .form-section .form-check {
+  margin-bottom: 0;
+}
+
+.login-1 .form-section .form-check-label {
+  padding-left: 5px;
+  font-size: 16px;
+  color: #535353;
+}
+
+.login-1 .form-section a.forgot-password {
+  font-size: 16px;
+}
+
+.login-1 .form-section a.forgot-password:hover {
+  color: #535353;
+}
+
+.login-1 .logo img {
+  margin-bottom: 15px;
+  height: 25px;
+}
+
+.login-1 .btn-theme {
+  position: relative;
+  display: inline-block;
+  border: none;
+  outline: none !important;
+  color: #ffffff;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  z-index: 1;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Jost', sans-serif;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.login-1 .btn-theme:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+  border-radius: 3px;
+  -webkit-transform: perspective(200px) scaleX(0.1) rotateX(90deg) translateZ(-10px);
+          transform: perspective(200px) scaleX(0.1) rotateX(90deg) translateZ(-10px);
+  -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  -webkit-transition: -webkit-transform 0.4s linear, -webkit-transform 0.4s linear;
+  transition: -webkit-transform 0.4s linear, -webkit-transform 0.4s linear;
+  transition: transform 0.4s linear, transform 0.4s linear;
+  transition: transform 0.4s linear, transform 0.4s linear, -webkit-transform 0.4s linear, -webkit-transform 0.4s linear;
+  z-index: -1;
+}
+
+.login-1 .btn-theme:hover:after {
+  -webkit-transform: perspective(200px) scaleX(1.05) rotateX(0deg) translateZ(0);
+          transform: perspective(200px) scaleX(1.05) rotateX(0deg) translateZ(0);
+  -webkit-transition: -webkit-transform 0.4s linear, -webkit-transform 0.4s linear;
+  transition: -webkit-transform 0.4s linear, -webkit-transform 0.4s linear;
+  transition: transform 0.4s linear, transform 0.4s linear;
+  transition: transform 0.4s linear, transform 0.4s linear, -webkit-transform 0.4s linear, -webkit-transform 0.4s linear;
+}
+
+.login-1 .btn-lg {
+  padding: 0 50px;
+  line-height: 50px;
+}
+
+.login-1 .btn {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.login-1 .btn-primary {
+  background: #43ba7f;
+}
+
+.login-1 .btn-primary:after {
+  background: #3EA976;
+}
+
+.login-1 .social-list {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 27px;
+}
+
+.login-1 .social-list .icon {
+  position: relative;
+  background: #f3f3f3;
+  border-radius: 3px;
+  margin: 0 4px 3px 0;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+  -webkit-transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color: #ffffff;
+}
+
+.login-1 .social-list .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.login-1 .social-list .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  -webkit-transform: translate(-50%) rotate(45deg);
+          transform: translate(-50%) rotate(45deg);
+  -webkit-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.login-1 .social-list .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.login-1 .social-list .icon:hover span,
+.login-1 .social-list .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.login-1 .social-list .facebook {
+  background: #3b5999;
+}
+
+.login-1 .social-list .facebook:hover .tooltip {
+  background: #3b5999;
+}
+
+.login-1 .social-list .facebook:hover .tooltip::before {
+  background: #3b5999;
+}
+
+.login-1 .social-list .twitter {
+  background: #46c1f6;
+}
+
+.login-1 .social-list .twitter:hover .tooltip {
+  background: #46c1f6;
+}
+
+.login-1 .social-list .twitter:hover .tooltip::before {
+  background: #46c1f6;
+}
+
+.login-1 .social-list .instagram {
+  background: #db4437;
+}
+
+.login-1 .social-list .instagram:hover .tooltip {
+  background: #db4437;
+}
+
+.login-1 .social-list .instagram:hover .tooltip::before {
+  background: #db4437;
+}
+
+.login-1 .social-list .github {
+  background: #2392e0;
+}
+
+.login-1 .social-list .github:hover .tooltip {
+  background: #2392e0;
+}
+
+.login-1 .social-list .github:hover .tooltip::before {
+  background: #2392e0;
+}
+
+.login-1 .info {
+  max-width: 650px;
+}
+
+.login-1 .info h1 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.login-1 .info p {
+  margin-bottom: 0;
+  color: #fff;
+  opacity: 0.9;
+  line-height: 28px;
+}
+
+@-webkit-keyframes drop {
+  0% {
+    top: -50%;
+  }
+  100% {
+    top: 110%;
+  }
+}
+
+@keyframes drop {
+  0% {
+    top: -50%;
+  }
+  100% {
+    top: 110%;
+  }
+}
+
+@media (max-width: 992px) {
+  .login-1 .none-992 {
+    display: none !important;
+  }
+}
+
+/*--------------------------------Login 1 end---------------------------*/
+/*---------------------------- preloader area ----------------------------*/
+.loader_bg {
+  position: fixed;
+  z-index: 9999999;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.loader {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loader img {
+  width: 280px;
+}
+/*# sourceMappingURL=style.css.map */
